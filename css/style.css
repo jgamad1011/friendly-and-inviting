@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+header{
+	width: 950px;
+	height: 100%;
+	margin: 20px auto;
+	position: relative;
+	overflow: hidden;
+	margin-top: 0;
+
+
+}
+
+.wrapper{
+
+	background-color: lightgray;
+}
+
+main{
+	width: 950px;
+	height: 100%;
+	margin: 20px auto;
+	position: relative;
+	overflow: hidden;
+	background-color: gray;
+
+}
+.imagetrans{
+	/*max-width: 500px;*/
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+main .featuredimg{
+	width: 100%;
+	height: 200px;
+	
+}
+.featuredpost{
+	display: inline-block;
+	width: 30%;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.animateimage{
+	width: 100%;
+	height: 500px;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.animateimage-fading{
+	animation: fading 5s infinite;
+
+}@keyframes fading{0%{opacity: 0}50%{opacity: 1}100%{opacity: 0}}
+
+.headwrap{
+	/*margin: 1% 2% 1% 2%;*/
+	margin: 0 50px 0 50px;
+}
+
+.headwrap li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+.markwrap hr{
+	width: 100%;
+}
+
+.headwrap a{
+	text-decoration: none;
+	font-size: 20px;
+}
+#search{
+	padding: 3px 15px 0;
+	width: 200px;
+	height: 33px;
+	display: inline-block;
+	margin: 11px 0 0 15px;
+
+}
+
+.markwrap{
+
+	display: block;
+}
+
+.mainwrap{
+	width: 79%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+.markwrap h1{
+	display: block;
+	clear: both;
+}
+.search{
+	float: right;
+	display: block;
+	clear: both;
+
+}
+aside{
+	width: 20%;
+	height: 100%;
+	float:	right;
+	display: inline-block;
+
+}
+.home{
+	clear: both;
+	text-align: center;
+	padding: 10px;
+}
+
+aside a{
+	text-decoration: none;
+}
+
+aside li{
+	list-style: none;
+}
+
+.googlefollow #button{
+
+
+}
