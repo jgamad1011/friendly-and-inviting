@@ -5,31 +5,14 @@
 	<title>Template Activity</title>
 </head>
 <body>
-<script type="text/javascript">
-	var myIndex = 0;
-	animatepic();
-	function animatepic(){
-		var i;
-		var x = document.getElementByClassName("mySlides");
-		for (i = 0; i< x.length; i++){
-			x[i].style.display = "none";
-		}
-		myIndex++;
-		if (myIndex > x.length){ myIndex = 1}
-		x[myIndex-1].style.display = "block";
-		setTimout(animatepic, 2000);
 
-	}
-
-
-</script>
 
 
 
 
 	<div class="wrapper">
 		<header>
-		<div class="headwrap">
+		<div class="headwrap" >
 				<div class="search">
 					<input type="text" name="search" placeholder="Search this site... " id="search">
 				</div>
@@ -57,12 +40,12 @@
 			</div>
 		</header>
 		<div class="imagetrans">
-					<img src="pinwheel.jpg" class="animateimage animateimage-fading" >
-					<img src="invitation.jpg" class="animateimage animateimage-fading" >
-					<img src="furniture.jpg" class="animateimage animateimage-fading" >
+					<!-- <img src="pinwheel.jpg" class="animateimage animateimage-fading" > -->
+					<img src="invitation.jpg" class="animateimage" >
+					<!-- <img src="furniture.jpg" class="animateimage animateimage-fading" > -->
 
 				</div>
-				<script>
+<!-- 				<script>
 					var myIndex = 0;
 					animatepic();
 
@@ -77,108 +60,170 @@
 						x[myIndex-1].style.display = "block";
 						setTimeout(animatepic, 2000);
 					}
-				</script>
+				</script> -->
 		<main>
 			<div class="featuredwrap">
 				<div class="featuredpost">
-					<img src="pinwheel.jpg" class="featuredimg">
+					<!-- <div class="fpost">
+						<h3>FEATURED POST 1 TITLE</h3>
+						<a href="#">Read more</a>
+						
+					</div> -->
+					<a href="#"><img src="partybbq.jpg" class="featuredimg"></a>
 				</div>
 				<div class="featuredpost">
-					<img src="invitation.jpg" class="featuredimg">
+					<a href="#"><img src="invitation.jpg" class="featuredimg"></a>
 				</div>
 				<div class="featuredpost">
-					<img src="furniture.jpg" class="featuredimg">
+					<a href="#"><img src="furniture.jpg" class="featuredimg"></a>
+					
 				</div>
 			</div>
 			<div class="mainwrap">
 				<div class="post">
-					<h2>Demo post with formatted elements and comments.</h2>
-					<small>By BTemplates / Posted 4:57 AM / 3comments / Categories: Blogger, Images, Tag</small>
-					<div class="postimage"></div>
+					<a href="#"><h2>Demo post with formatted elements and comments.</h2></a>
+					<small>By BTemplates / Posted 4:57 AM /<a href="#"> 3 comments</a> / Categories: <a href="#">Blogger</a>, <a href="#">Images</a>, <a href="#">Tag</a></small>
+					<div class="postimage"><img src="invitation.jpg" alt="pimage" ></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="rmorecontainer">
+						<input type="button" name="readmore" value="Read more" class="rmore">
+					</div>
 					<hr>
 				</div>
 				<div class="post">
-					<h2>Demo post with formatted elements and comments.</h2>
-					<small>By BTemplates / Posted 4:57 AM / 3comments / Categories: Blogger, Images, Tag</small>
-					<div class="postimage"></div>
+					<a href="#"><h2>Demo post with formatted elements and comments.</h2></a>
+					<small>By BTemplates / Posted 4:57 AM / <a href="#"> 3 comments</a> / Categories: <a href="#">Blogger</a>, <a href="#">Images</a>, <a href="#">Tag</a></small>
+					<div class="postimage"><img src="partybbq.jpg" alt="pimage" ></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="rmorecontainer">
+						<input type="button" name="readmore" value="Read more" class="rmore">
+					</div>
 					<hr>
 				</div>
 				<div class="post">
-					<h2>Demo post with formatted elements and comments.</h2>
-					<small>By BTemplates / Posted 4:57 AM / 3comments / Categories: Blogger, Images, Tag</small>
-					<div class="postimage"></div>
+					<a href="#"><h2>Demo post with formatted elements and comments.</h2></a>
+					<small>By BTemplates / Posted 4:57 AM / <a href="#"> 3 comments</a> / Categories: <a href="#">Blogger</a>, <a href="#">Images</a>, <a href="#">Tag</a></small>
+					<div class="postimage"><img src="furniture.jpg" alt="pimage" ></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="rmorecontainer">
+						<input type="button" name="readmore" value="Read more" class="rmore">
+					</div>
 					<hr>
 				</div>
 				<div class="post">
-					<h2>Demo post with formatted elements and comments.</h2>
-					<small>By BTemplates / Posted 4:57 AM / 3comments / Categories: Blogger, Images, Tag</small>
-					<div class="postimage"></div>
+					<a href="#"><h2>Demo post with formatted elements and comments.</h2></a>
+					<small>By BTemplates / Posted 4:57 AM / <a href="#"> 3 comments</a> / Categories: <a href="#">Blogger</a>, <a href="#">Images</a>, <a href="#">Tag</a></small>
+					<div class="postimage"><img src="invitation.jpg" alt="pimage" ></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="rmorecontainer">
+						<input type="button" name="readmore" value="Read more" class="rmore">
+					</div>
 					<hr>
 				</div>
 				<div class="post">
-					<h2>Demo post with formatted elements and comments.</h2>
-					<small>By BTemplates / Posted 4:57 AM / 3comments / Categories: Blogger, Images, Tag</small>
-					<div class="postimage"></div>
+					<a href="#"><h2>Demo post with formatted elements and comments.</h2></a>
+					<small>By BTemplates / Posted 4:57 AM / <a href="#"> 3 comments</a> / Categories: <a href="#">Blogger</a>, <a href="#">Images</a>, <a href="#">Tag</a></small>
+					<div class="postimage"><img src="partybbq.jpg" alt="pimage" ></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="rmorecontainer">
+						<input type="button" name="readmore" value="Read more" class="rmore">
+					</div>
 					<hr>
 				</div>
 				<div class="post">
-					<h2>Demo post with formatted elements and comments.</h2>
-					<small>By BTemplates / Posted 4:57 AM / 3comments / Categories: Blogger, Images, Tag</small>
-					<div class="postimage"></div>
+					<a href="#"><h2>Demo post with formatted elements and comments.</h2></a>
+					<small>By BTemplates / Posted 4:57 AM / <a href="#"> 3 comments</a> / Categories: <a href="#">Blogger</a>, <a href="#">Images</a>, <a href="#">Tag</a></small>
+					<div class="postimage"><img src="furniture.jpg" alt="pimage" ></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="rmorecontainer">
+						<input type="button" name="readmore" value="Read more" class="rmore">
+					</div>
 					<hr>
 				</div>
 				<div class="post">
-					<h2>Demo post with formatted elements and comments.</h2>
-					<small>By BTemplates / Posted 4:57 AM / 3comments / Categories: Blogger, Images, Tag</small>
-					<div class="postimage"></div>
+					<a href="#"><h2>Demo post with formatted elements and comments.</h2></a>
+					<small>By BTemplates / Posted 4:57 AM / <a href="#"> 3 comments</a> / Categories: <a href="#">Blogger</a>, <a href="#">Images</a>, <a href="#">Tag</a></small>
+					<div class="postimage"><img src="invitation.jpg" alt="pimage" ></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla paria	tur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="rmorecontainer">
+						<input type="button" name="readmore" value="Read more" class="rmore">
+					</div>
 					<hr>
 				</div>
 				<div class="home">
 					<a href="#top">Home</a>
-					<p>Subscribe to: <a href="#">Posts (Atom)</a></p>
 				</div>
+				<p  id="atom">Subscribe to: <a href="#">Posts (Atom)</a></p>
 			</div>
 			<aside>
 				<div class="socialaccount">
@@ -220,15 +265,16 @@
 				</div>
 				<div class="popularpost">
 					<div class="ppost">
-						<div class="ppostimg"><img src=""></div>
+					<h3>Popular Post</h3>
+						<div class="ppostimg"><img src="invitation.jpg"></div>
 						<p>Demo post with formatted elements and comments.</p>
 					</div>
 					<div class="ppost">
-						<div class="ppostimg"><img src=""></div>
+						<div class="ppostimg"><img src="partybbq.jpg"></div>
 						<p>Images in this template.</p>
 					</div>
 				</div>
-				<div class="categories">
+				<div class="categories"><h3>Categories</h3>
 					<ul>
 						<li><a href="#">Blogger</a></li>
 						<li><a href="#">Btemplates</a></li>
@@ -242,7 +288,45 @@
 
 			
 		</main>
-	
+
+
+		<div class="sidebar">
+			<div class="footercont" id="footercontid">
+				<ul>
+					<li><h4>Labels</h4></li>
+					<li><a href="#">Blogger</a></li>
+					<li><a href="#">Btemplates</a></li>
+					<li><a href="#">Demo</a></li>
+					<li><a href="#">Images</a></li>
+					<li><a href="#">Tag</a></li>
+				</ul>
+				
+			</div>	
+			<div class="footercont">
+				<ul>
+					<li><h4>Blogroll</h4></li>
+					<li><a href="#">BTemplates</a></li>
+					<li><a href="#">PBTemplates</a></li>
+					<li><a href="#">Blogger templates search engine</a></li>
+					<li><a href="#">BTemplates Blog</a></li>
+					<li><a href="#">Blog and Web</a></li>
+				</ul>
+			</div>	
+			<div class="footercont">
+				<ul>
+					<li><h4>About</h4></li>
+					<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.<a href="#"> Blogger Templates</a></p></li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<p>Copyright © 2017 <a href="#">Markes</a> | Powered by <a href="#">Blogger</a></p>
+			<p>Design by <a href="#">SimpleWpThemes</a> | Blogger Theme by <a href="#">Lasantha</a> - <a href="#">PremiumBloggerTemplates.com</a></p>
+		</footer>	
+
 
 	</div>
 
